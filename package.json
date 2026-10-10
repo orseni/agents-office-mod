@@ -1,0 +1,12 @@
+{
+  "name": "submodules-agent-office",
+  "private": true,
+  "description": "Development scripts for the submodules-agent-office Claude Code mod. The mod itself has no dependencies.",
+  "type": "module",
+  "scripts": {
+    "check": "npx -y tsx@4.19.2 scripts/model-check.ts",
+    "previews": "npx -y tsx@4.19.2 scripts/previews.ts",
+    "validate": "claude plugin validate .",
+    "test": "claude plugin test ."
+  }
+}

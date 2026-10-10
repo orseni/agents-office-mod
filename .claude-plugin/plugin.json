@@ -1,0 +1,65 @@
+{
+  "name": "submodules-agent-office",
+  "version": "0.2.0",
+  "description": "A live pixel-art office above your Claude Code prompt: the orchestrator and every subagent it delegates to, animated by what each one is doing.",
+  "author": {
+    "name": "Orseni Campos"
+  },
+  "license": "MIT",
+  "keywords": [
+    "subagents",
+    "multi-agent",
+    "orchestrator",
+    "git-submodules",
+    "pixel-art",
+    "mod",
+    "band"
+  ],
+  "userConfig": {
+    "avatar": {
+      "type": "string",
+      "title": "Avatar",
+      "description": "How agents are drawn: office, robot or tamagotchi",
+      "default": "office",
+      "options": [
+        "office",
+        "robot",
+        "tamagotchi"
+      ]
+    },
+    "large": {
+      "type": "boolean",
+      "title": "Large characters",
+      "description": "Draw 16x20 characters with the text below (a 15-line band) instead of slim 20x10 ones with the text beside them (a 6-line band)",
+      "default": false
+    },
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Interface language",
+      "default": "en",
+      "options": [
+        "en",
+        "pt-BR"
+      ]
+    },
+    "showOnStart": {
+      "type": "boolean",
+      "title": "Show on start",
+      "description": "Show the band when a session starts (hide or show it any time with /agent-office)",
+      "default": true
+    },
+    "statusLine": {
+      "type": "boolean",
+      "title": "Status line",
+      "description": "Show how many agents are working in the status line",
+      "default": true
+    },
+    "notify": {
+      "type": "boolean",
+      "title": "Toasts",
+      "description": "Show a toast when a subagent finishes or fails",
+      "default": false
+    }
+  }
+}

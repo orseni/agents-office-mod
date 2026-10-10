@@ -1,0 +1,14 @@
+{
+  "name": "submodules-agent-office",
+  "description": "Agent Office: a live pixel-art pane of your Claude Code orchestrator and subagents.",
+  "owner": {
+    "name": "Orseni Campos"
+  },
+  "plugins": [
+    {
+      "name": "submodules-agent-office",
+      "source": "./",
+      "description": "A live pixel-art office in Claude Code: your orchestrator and every subagent it delegates to, animated by what each one is doing."
+    }
+  ]
+}
