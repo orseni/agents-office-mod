@@ -1,5 +1,5 @@
 {
-  "name": "submodules-agent-office",
+  "name": "agents-office-mod",
   "version": "0.2.0",
   "description": "A live pixel-art office above your Claude Code prompt: the orchestrator and every subagent it delegates to, animated by what each one is doing.",
   "author": {

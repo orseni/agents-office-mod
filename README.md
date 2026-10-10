@@ -15,7 +15,7 @@ Built for repositories made of **git submodules** (or any monorepo) where one or
 At the prompt of a Claude Code terminal session:
 
 ```
-/plugin install submodules-agent-office --marketplace orseni/submodules-agent-office
+/plugin install agents-office-mod --marketplace orseni/agents-office-mod
 ```
 
 Answer `y` to add the marketplace, then pick a scope:
@@ -108,8 +108,8 @@ scripts/                checks and preview rendering (Node, dev only)
 ## Develop
 
 ```bash
-git clone https://github.com/orseni/submodules-agent-office
-cd submodules-agent-office
+git clone https://github.com/orseni/agents-office-mod
+cd agents-office-mod
 claude --plugin-dir .            # run it; edits hot-reload
 npm run check                    # model, naming and sprite checks (Node)
 npm run validate                 # claude plugin validate .

@@ -1,7 +1,7 @@
 {
-  "name": "submodules-agent-office",
+  "name": "agents-office-mod",
   "private": true,
-  "description": "Development scripts for the submodules-agent-office Claude Code mod. The mod itself has no dependencies.",
+  "description": "Development scripts for the agents-office-mod Claude Code mod. The mod itself has no dependencies.",
   "type": "module",
   "scripts": {
     "check": "npx -y tsx@4.19.2 scripts/model-check.ts",

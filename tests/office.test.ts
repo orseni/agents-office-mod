@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'claude-code/testing'
 
-const PLUGIN = 'submodules-agent-office'
+const PLUGIN = 'agents-office-mod'
 const band = (maxRows = 30) => ({
   hasSurvey: false,
   isWorking: false,

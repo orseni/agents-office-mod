@@ -15,7 +15,7 @@ Feito para repositórios de **git submodules** (ou qualquer monorepo) em que um 
 No prompt de uma sessão do Claude Code no terminal:
 
 ```
-/plugin install submodules-agent-office --marketplace orseni/submodules-agent-office
+/plugin install agents-office-mod --marketplace orseni/agents-office-mod
 ```
 
 Responda `y` para adicionar o marketplace e escolha o escopo:
